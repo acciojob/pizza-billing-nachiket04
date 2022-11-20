@@ -62,7 +62,10 @@ public class Pizza {
 
     public String getBill(){
         // your code goes here
-        bill += ("Total Price: " + this.price + "\n");
+        if(!hs.contains("GetBill")){
+            bill += ("Total Price: " + this.price + "\n");
+            hs.add("GetBill");
+        }
         return this.bill;
     }
 }
