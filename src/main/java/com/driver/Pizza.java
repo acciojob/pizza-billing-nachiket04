@@ -45,11 +45,11 @@ public class Pizza {
         if(!hs.contains("Toppings")){
             if(isVeg){
                 price += 70;
-                bill += ("Extra Toppings For Veg Pizza = 70" + "\n");
+                bill += ("Extra Toppings Added: 70" + "\n");
             }
             else{
                 price += 120;
-                bill += ("Extra Toppings For Non-veg Pizza = 120" + "\n");
+                bill += ("Extra Toppings Added: 120" + "\n");
             }
             hs.add("Toppings");
         }
@@ -59,7 +59,7 @@ public class Pizza {
         // your code goes here
         if(!hs.contains("TA")){
             price += 20;
-            bill += ("Paper bag Price = 20" + "\n");
+            bill += ("Paperbag Added: 20" + "\n");
             hs.add("TA");
         }
     }
