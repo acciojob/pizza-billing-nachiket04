@@ -4,10 +4,6 @@ import java.util.HashSet;
 
 public class Pizza {
 
-    public void setPrice(int price) {
-        this.price = price;
-    }
-
     private int price;
     private Boolean isVeg;
     private String bill;
